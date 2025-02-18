@@ -1446,4 +1446,28 @@ After this, your live site will be available at `https://fabien-campillo.github.
 <br>
 <br>
 ----
+I change the `index.md` file, what are the next steps ?
 
+1. Preview the changes locally (optional but recommended). Before deploying, check how the site looks:
+```
+mkdocs serve
+```
+Open `http://127.0.0.1:8000` in your browser.
+If everything looks good, stop the server (Ctrl + C).
+
+2. Save the changes to your GitHub repository (important!). Since `index.md` is part of your source files, you should save it in your GitHub repo:
+```
+git add index.md  
+git commit -m "Updated index page"  
+git push origin main  
+```
+This ensures that your main branch contains the latest version of your project files.
+
+3. Deploy the new version of your site to GitHub Pages. Now, update the live version of your website:
+```
+mkdocs gh-deploy
+```
+This will:
+
+- Build the updated site.
+- Push it to the gh-pages branch (which GitHub Pages uses).

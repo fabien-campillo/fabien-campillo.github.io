@@ -1,1 +1,28 @@
-site_name: My Docs
+site_name: "Fabien Campillo's Website"
+
+# Repository link (optional, helps in deployment)
+repo_url: "https://github.com/fabien-campillo/fabien-campillo.github.io"
+
+# Theme settings (MkDocs default theme or Material)
+theme:
+  name: "mkdocs"
+
+# Navigation menu
+nav:
+  - Home: index.md
+  - Publications: publications.md
+  - Teaching: teaching.md
+  - Software: software.md
+  - Projects: projects.md
+  - Popularization: popularization.md
+  - Contact: contact.md
+
+# Extra settings
+markdown_extensions:
+  - toc:
+      permalink: True
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+# Deployment settings
+site_url: "https://fabien-campillo.github.io"
