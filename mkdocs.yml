@@ -1,0 +1,27 @@
+site_name: "Fabien Campillo - Research Website"
+theme:
+ name: "mkdocs"  # Default MkDocs theme
+
+nav:
+ - Home: index.md
+ - Publications: publications.md
+ - Teaching: teaching.md
+ - Software: software.md
+ - Projects: projects.md
+ - Popularization: popularization.md
+ - Contact: contact.md
+ - Dionaea: dionaea.md  # Additional page
+
+markdown_extensions:
+ - toc:
+     permalink: true
+ - admonition
+ - codehilite
+ - pymdownx.arithmatex  # For LaTeX support if needed
+
+extra_css:
+ - 'stylesheets/custom.css'  # If you have custom CSS
+
+extra_javascript:
+ - 'javascripts/custom.js'  # If you have custom JS
+ 
