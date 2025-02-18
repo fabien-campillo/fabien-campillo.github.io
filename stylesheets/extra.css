@@ -1,6 +1,7 @@
 /* Remove ruled paper background */
-body {
+body.homepage {
     background-color: #ffffff !important;
     background-image: none !important;
 }
+
 
