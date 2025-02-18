@@ -4,7 +4,3 @@ body {
     background-image: none !important;
 }
 
-/* Remove the 'previous/next' buttons (if they are still visible) */
-div.md-nav-btns {
-    display: none !important;
-}
